@@ -2,7 +2,7 @@ import React from "react";
 import "./app.css";
 const App = () => {
   return (
-    <>
+    <div>
       <div className="mainContainer">
         <div className="appContainer">
           <input
@@ -12,7 +12,7 @@ const App = () => {
           />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 export default App;
